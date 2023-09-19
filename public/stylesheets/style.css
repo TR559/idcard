@@ -33,6 +33,33 @@ input, select{
   max-width:400px;
   padding:16px;
 }
-a {
-  color: #00B7FF;
+.title{
+  display: flex;
+  justify-content: center;
+}
+.address-text p{
+  padding:0;
+  margin:0;
+}
+.address-text p:first-child {
+  margin-top: 6px;
+}
+address-text p:last-child {
+  margin-bottom: 6px;
+}
+
+.card.premium{
+  border: 3px solid #d7ac57;
+  background-color: gold;
+  color: Red;
+}
+.card.standard{
+  border: 2px solid #999;
+  background-color: gray;
+  color: Red;
+}
+.card.bronze{
+  border: 2px solid #714740;
+  background-color: sandybrown;
+  color: Red;
 }
