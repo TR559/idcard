@@ -19,7 +19,7 @@ router.post(`/card`,function (req,res){
     zip: req.body.zip,
     accountNumber: createAccountNumber(),
 
-    currentDate: new Date()
+    currentDate: new Date(),
     cardClass: getCardClass(req.body.type)
   });
 })
@@ -43,6 +43,6 @@ function getCardClass(type){
   }else if (type ==="Bronze") {
     return "bronze"
   }else {
-    return ""
+    return type
   }
 }

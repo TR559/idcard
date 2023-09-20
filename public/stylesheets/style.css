@@ -47,19 +47,18 @@ input, select{
 address-text p:last-child {
   margin-bottom: 6px;
 }
-
 .card.premium{
-  border: 3px solid #d7ac57;
-  background-color: gold;
+  border: 3px solid #ff0303;
+  background-color: #ffdd00;
   color: Red;
 }
 .card.standard{
-  border: 2px solid #999;
-  background-color: gray;
-  color: Red;
+  border: 2px solid #ffde00;
+  background-color: #0519fa;
+  color: #ffde00;
 }
 .card.bronze{
-  border: 2px solid #714740;
-  background-color: sandybrown;
-  color: Red;
+  border: 2px solid #ffffff;
+  background-color: #070707;
+  color: #ffffff;
 }
